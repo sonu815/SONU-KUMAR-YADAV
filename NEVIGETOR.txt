@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>document</title>
+	<style type="text/css">
+		.youtube
+		{
+			font-size:2em;
+			animation:youtube 1s ease-in-out infinite;
+			background-color:yellow;
+			width:500px;
+			height: 40px;
+			padding:10px;
+			text-align:center;
+		}
+		body
+		{
+			background-color:black;
+
+		}
+		@keyframes youtube{
+			0%,100%{
+				transform:rotatez(0deg);
+			}
+			50%{
+
+				transform:rotateZ(5deg);
+			}
+		}
+	</style>
+</head>
+<body>
+	<h1 class="youtube"> This is an Important Massages</h1>
+
+</body>
+</html>
